@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+body {
+    background: #2A2A2A;
+}
+
+.hero .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.card {
+    background: #333333;
+    width: 244px;
+    height: 368px;
+    box-shadow: 0px 0px 15px 0px #00000080;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+h2 {
+    font-family: Arial;
+    font-weight: 700;
+    font-size: 18.7px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    margin-top: 24px;
+}
+
+p {
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    margin-top: 10px;
+}
+
+h3 {
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    margin-top: 10px;
+}
+
+.btn {
+    background: #5CB85C;
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 13.3px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    border: none;
+    width: 75px;
+    height: 35px;
+    margin-top: 41px;
+    border-radius: 5px;
+}
+
+input {
+    width: 200px;
+    height: 39px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    text-align: center;
+}
+
+input::placeholder {
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #757575;
+    text-align: center;
+}
+
+.inputs {
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.box {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}   
+
+select {
+    width: 100px;
+    height: 39px;
+    border-radius: 5px;
+}
